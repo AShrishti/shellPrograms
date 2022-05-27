@@ -11,3 +11,8 @@ Sounds[wolf]="howl"
 echo ${#Sounds[@]}
 echo ${!Sounds[@]}
 echo ${Sounds[@]}
+
+for s in ${!Sounds[@]}
+do
+echo "sounds of " $s "is" ${Sounds[$s]};
+done
