@@ -16,7 +16,7 @@ declare -A Result
 Result[first]="$p"
 Result[second]="$q"
 Result[third]="$r"
-Result[forth]="$s"
+Result[$s]="$s"
 
 echo ${!Result[@]}
 echo ${Result[@]}
